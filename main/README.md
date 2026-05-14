@@ -38,7 +38,7 @@ src/
 └── aruco_obj.py
 ```
 
-This project uses a penguin `.obj` model as the primary 3D object for Augmented Reality simulations, representing a game-like application developed as part of activities presented during the Teaching, Research, and Extension Journey of the campus. However, the system is fully customizable, requiring the user to import the desired `.obj` model and image files according to the intended Augmented Reality tests and applications.
+This project uses a penguin `.obj` model as the primary 3D object for Augmented Reality simulations, representing a game-like application developed as part of activities presented during the Jornada de Ensino, Pesquisa e Extensão of the campus. However, the system is fully customizable, requiring the user to import the desired `.obj` model and image files according to the intended Augmented Reality tests and applications.
 
 ---
 
