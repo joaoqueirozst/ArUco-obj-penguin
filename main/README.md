@@ -183,5 +183,3 @@ python3 aruco_mov.py
 # Author
 
 Developed by João Pedro, with [Lab Penguin](https://github.com/Lab-Penguin).
-
-Augmented Reality and Computer Vision project using `Python`, `OpenCV`, and `ArUco Markers`.
