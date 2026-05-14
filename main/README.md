@@ -29,10 +29,12 @@ This repository contains two main approaches:
 main/
 ├── Penguin.obj
 ├── requirements.txt
+├── aruco_mov.py
 └── README.md
 
 src/
 ├── aruco_img.py
+├── img.jpeg # add your image
 └── aruco_obj.py
 ```
 
