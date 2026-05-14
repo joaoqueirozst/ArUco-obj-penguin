@@ -119,7 +119,7 @@ The file:
 image_aruco.py
 ```
 
-Detects ArUco markers and replaces the marker surface with a custom image using homography transformation. The algorithm performs real-time 'ArUco marker' detection by identifying marker regions and extracting their corner coordinates. Using these reference points, the system computes the perspective transformation and applies image warping techniques to project external content directly onto the detected marker surface, enabling real-time 'Augmented Reality' visualization.
+Detects ArUco markers and replaces the marker surface with a custom image using homography transformation. The algorithm performs real-time `ArUco marker` detection by identifying marker regions and extracting their corner coordinates. Using these reference points, the system computes the perspective transformation and applies image warping techniques to project external content directly onto the detected marker surface, enabling real-time `Augmented Reality` visualization.
 
 ---
 
@@ -162,6 +162,23 @@ You may replace it with another `.obj` model.
 ---
 
 The project performs pose estimation of the detected ArUco markers using the `cv2.aruco.estimatePoseSingleMarkers()` function. Through this process, the system calculates the rotation vector (`rvec`) and translation vector (`tvec`), allowing the algorithm to determine the spatial position and orientation of each marker relative to the camera reference frame. These parameters are fundamental for correctly aligning virtual objects within the Augmented Reality environment and ensuring consistent 3D projection during real-time visualization.
+
+# Augmented Reality Animation Application
+
+The final application proposed in this project consists of a real-time `Augmented Reality` animation system based on sequential `ArUco marker detection`. The main objective is to position ArUco markers identified by specific `IDs` in an organized spatial arrangement so that they can be detected by the camera and used as reference points for animated 3D object projection.
+
+As the markers are recognized in sequence, the system dynamically projects and animates the `.obj` model over each detected marker, creating the visual perception that the virtual object is moving through a predefined path in the physical environment. The animation logic is implemented through pose estimation, rotational transformations, coordinate displacement, and sequential state transitions between markers.
+
+The movement path, animation behavior, quantity of ArUco markers, and the order of their `IDs` are fully customizable, allowing the development of different trajectories, game simulations, educational activities, and interactive Augmented Reality experiences. At the end of the configured route, the system can display a custom final image, representing the conclusion of the animation or game sequence.
+
+This approach enables the creation of interactive marker-based environments in which virtual objects appear to navigate across the real world using only computer vision techniques and marker tracking.
+
+Main code:
+
+```bash
+python3 aruco_mov.py
+
+```
 
 # Author
 
