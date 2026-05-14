@@ -54,22 +54,6 @@ To run the project, you will need:
 
 ---
 
-# Installing Dependencies
-
-Open the VS Code terminal and execute:
-
-```bash
-pip install opencv-contrib-python numpy matplotlib imutils
-```
-
-or:
-
-```bash
-pip3 install opencv-contrib-python numpy matplotlib imutils
-```
-
----
-
 # requirements.txt
 
 Create a file named:
