@@ -45,7 +45,7 @@ def rotate_obj(vertices, angle_degrees): # mtx rotação obj
     rotated = vertices @ rotation_mtx.T
     return rotated
 
-vertices, faces = load_obj("Penguin.obj")
+vertices, faces = load_obj("main/penguin.obj")
 vertices = vertices * 0.001
 marker_length = 0.25
 
