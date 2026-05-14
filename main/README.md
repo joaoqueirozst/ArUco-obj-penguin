@@ -1,6 +1,6 @@
 # ArUco Augmented Reality
 
-Augmented Reality project developed in `Python` using `OpenCV` and `ArUco Markers` for real-time image projection and 3D `.obj` model rendering over fiducial markers detected by a camera.
+Augmented Reality project developed in `Python` using `OpenCV` and `ArUco Markers` for real-time image projection and 3D `.obj` model rendering over markers detected by a camera.
 
 The system performs marker detection, pose estimation, homography transformation, and 3D object projection, enabling interactive Augmented Reality applications based on computer vision techniques.
 
