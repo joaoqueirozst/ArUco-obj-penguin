@@ -1,10 +1,10 @@
 # ArUco Augmented Reality
 
-Augmented Reality project developed in `Python` using `OpenCV` and `ArUco Markers` for real-time image projection and 3D `.obj` model rendering over markers detected by a camera.
-
-The system performs marker detection, pose estimation, homography transformation, and 3D object projection, enabling interactive Augmented Reality applications based on computer vision techniques.
-
-This work was developed in partnership with [Lab Penguin](https://github.com/Lab-Penguin) and the Intelligent Space ('is'), research laboratories of [IFES](https://guarapari.ifes.edu.br), Guarapari campus.
+> Augmented Reality project developed in `Python` using `OpenCV` and `ArUco Markers` for real-time image projection and 3D `.obj` model rendering over markers detected by a camera.
+> 
+> The system performs marker detection, pose estimation, homography transformation, and 3D object projection, enabling interactive Augmented Reality applications based on computer vision techniques.
+> 
+> This work was developed in partnership with [Lab Penguin](https://github.com/Lab-Penguin) and the Intelligent Space ('is'), research laboratories of [IFES](https://guarapari.ifes.edu.br), Guarapari campus.
 
 This repository contains two main approaches:
 
@@ -23,7 +23,7 @@ This repository contains two main approaches:
 
 ---
 
-# Project Structure
+# Architecture
 
 ```bash
 main/
@@ -179,7 +179,3 @@ Main code:
 python3 aruco_mov.py
 
 ```
-
-# Author
-
-Developed by João Pedro, with [Lab Penguin](https://github.com/Lab-Penguin).
